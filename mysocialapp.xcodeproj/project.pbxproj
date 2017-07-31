@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		438A894D3D38C30449EF3D88 /* Pods_mysocialapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E961D642499CB11AA0D35F96 /* Pods_mysocialapp.framework */; };
+		771B58D31F1D94AE005CD54F /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771B58D21F1D94AE005CD54F /* Comment.swift */; };
+		771B58D71F1D9F53005CD54F /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771B58D61F1D9F53005CD54F /* CommentCell.swift */; };
+		7DB680637DE62E4584B7A23D /* Pods_mysocialappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E375A80927431123C52C63B5 /* Pods_mysocialappTests.framework */; };
 		DB37F8871E5B053600C1D6E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37F8861E5B053600C1D6E5 /* AppDelegate.swift */; };
-		DB37F8891E5B053600C1D6E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37F8881E5B053600C1D6E5 /* ViewController.swift */; };
+		DB37F8891E5B053600C1D6E5 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37F8881E5B053600C1D6E5 /* SignInVC.swift */; };
 		DB37F88C1E5B053600C1D6E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB37F88A1E5B053600C1D6E5 /* Main.storyboard */; };
 		DB37F88E1E5B053600C1D6E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB37F88D1E5B053600C1D6E5 /* Assets.xcassets */; };
 		DB37F8911E5B053600C1D6E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB37F88F1E5B053600C1D6E5 /* LaunchScreen.storyboard */; };
-		DB37F89C1E5B053600C1D6E5 /* mysocialappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37F89B1E5B053600C1D6E5 /* mysocialappTests.swift */; };
-		DB37F8A71E5B053600C1D6E5 /* mysocialappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37F8A61E5B053600C1D6E5 /* mysocialappUITests.swift */; };
+		DB37F8BE1E5B5CC500C1D6E5 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37F8BD1E5B5CC500C1D6E5 /* FancyView.swift */; };
+		DB37F8C11E5B5D5200C1D6E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37F8C01E5B5D5200C1D6E5 /* Constants.swift */; };
+		DB37F8C31E5B5F4200C1D6E5 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37F8C21E5B5F4200C1D6E5 /* RoundBtn.swift */; };
+		DB66D5651E5B619300ACAC52 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66D5641E5B619300ACAC52 /* FancyField.swift */; };
+		DB66D5671E5B636500ACAC52 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66D5661E5B636500ACAC52 /* FancyBtn.swift */; };
+		DB66D56A1E5BA92E00ACAC52 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66D5691E5BA92E00ACAC52 /* FeedVC.swift */; };
+		DB66D56C1E5BB8EA00ACAC52 /* addingimgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66D56B1E5BB8EA00ACAC52 /* addingimgVC.swift */; };
+		DB66D56E1E5BBCD600ACAC52 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66D56D1E5BBCD600ACAC52 /* CircleView.swift */; };
+		DB66D5701E5BCBF900ACAC52 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66D56F1E5BCBF900ACAC52 /* PostCell.swift */; };
+		DB66D5731E5C0AC400ACAC52 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66D5721E5C0AC400ACAC52 /* DataService.swift */; };
+		DB66D5751E5C186D00ACAC52 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66D5741E5C186D00ACAC52 /* Post.swift */; };
+		DBA122051E926A8A0002FD4E /* profilePosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA122041E926A8A0002FD4E /* profilePosts.swift */; };
+		DBD2B2EF1E85315300B38C4E /* imageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B2EE1E85315300B38C4E /* imageVC.swift */; };
+		DBD2B3371E89729E00B38C4E /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2B3361E89729E00B38C4E /* FirstView.swift */; };
+		DBF17E971EF7EE6900A3D953 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBF17E961EF7EE6900A3D953 /* GoogleService-Info.plist */; };
+		DBF8D28F1F0E4E5800D62F2D /* newlyAddedPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8D28E1F0E4E5800D62F2D /* newlyAddedPostVC.swift */; };
+		DBFE559B1E93B60900DB34B2 /* profileViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFE559A1E93B60900DB34B2 /* profileViewer.swift */; };
+		DC19933FD94827C72100E04E /* Pods_mysocialappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE8526DC3C9A6B7CF9A90C4 /* Pods_mysocialappUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +54,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		348A2BFD95E248054956DFFB /* Pods-mysocialapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysocialapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-mysocialapp/Pods-mysocialapp.release.xcconfig"; sourceTree = "<group>"; };
+		3CE61A012169647A9DF3E73F /* Pods-mysocialappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysocialappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mysocialappTests/Pods-mysocialappTests.release.xcconfig"; sourceTree = "<group>"; };
+		5591EFFACB7CA953470254F5 /* Pods-mysocialappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysocialappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mysocialappTests/Pods-mysocialappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B60C2D00A43D44A2481D70D /* Pods-mysocialappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysocialappUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mysocialappUITests/Pods-mysocialappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C396207105E2DF79D71A95D /* Pods-mysocialappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysocialappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mysocialappUITests/Pods-mysocialappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		771B58D21F1D94AE005CD54F /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		771B58D61F1D9F53005CD54F /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		8F78F792CC2FF0D17554A345 /* Pods-mysocialapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mysocialapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mysocialapp/Pods-mysocialapp.debug.xcconfig"; sourceTree = "<group>"; };
+		AFE8526DC3C9A6B7CF9A90C4 /* Pods_mysocialappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mysocialappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB37F8831E5B053600C1D6E5 /* mysocialapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mysocialapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB37F8861E5B053600C1D6E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB37F8881E5B053600C1D6E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB37F8881E5B053600C1D6E5 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		DB37F88B1E5B053600C1D6E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB37F88D1E5B053600C1D6E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB37F8901E5B053600C1D6E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB37F8921E5B053600C1D6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB37F8971E5B053600C1D6E5 /* mysocialappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mysocialappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB37F89B1E5B053600C1D6E5 /* mysocialappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mysocialappTests.swift; sourceTree = "<group>"; };
-		DB37F89D1E5B053600C1D6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB37F8A21E5B053600C1D6E5 /* mysocialappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mysocialappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB37F8A61E5B053600C1D6E5 /* mysocialappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mysocialappUITests.swift; sourceTree = "<group>"; };
-		DB37F8A81E5B053700C1D6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB37F8BD1E5B5CC500C1D6E5 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		DB37F8C01E5B5D5200C1D6E5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB37F8C21E5B5F4200C1D6E5 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		DB66D5641E5B619300ACAC52 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		DB66D5661E5B636500ACAC52 /* FancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		DB66D5681E5B8F8A00ACAC52 /* mysocialapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mysocialapp.entitlements; sourceTree = "<group>"; };
+		DB66D5691E5BA92E00ACAC52 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		DB66D56B1E5BB8EA00ACAC52 /* addingimgVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addingimgVC.swift; sourceTree = "<group>"; };
+		DB66D56D1E5BBCD600ACAC52 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		DB66D56F1E5BCBF900ACAC52 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		DB66D5721E5C0AC400ACAC52 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		DB66D5741E5C186D00ACAC52 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DBA122041E926A8A0002FD4E /* profilePosts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profilePosts.swift; sourceTree = "<group>"; };
+		DBD2B2EE1E85315300B38C4E /* imageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageVC.swift; sourceTree = "<group>"; };
+		DBD2B3361E89729E00B38C4E /* FirstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		DBF17E961EF7EE6900A3D953 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DBF8D28E1F0E4E5800D62F2D /* newlyAddedPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newlyAddedPostVC.swift; sourceTree = "<group>"; };
+		DBFE559A1E93B60900DB34B2 /* profileViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewer.swift; sourceTree = "<group>"; };
+		E375A80927431123C52C63B5 /* Pods_mysocialappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mysocialappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E961D642499CB11AA0D35F96 /* Pods_mysocialapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mysocialapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438A894D3D38C30449EF3D88 /* Pods_mysocialapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB680637DE62E4584B7A23D /* Pods_mysocialappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +115,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC19933FD94827C72100E04E /* Pods_mysocialappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90B94F1E8136829735D581B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F78F792CC2FF0D17554A345 /* Pods-mysocialapp.debug.xcconfig */,
+				348A2BFD95E248054956DFFB /* Pods-mysocialapp.release.xcconfig */,
+				5591EFFACB7CA953470254F5 /* Pods-mysocialappTests.debug.xcconfig */,
+				3CE61A012169647A9DF3E73F /* Pods-mysocialappTests.release.xcconfig */,
+				6C396207105E2DF79D71A95D /* Pods-mysocialappUITests.debug.xcconfig */,
+				5B60C2D00A43D44A2481D70D /* Pods-mysocialappUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABD7BD7CE63520AEC0785DB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E961D642499CB11AA0D35F96 /* Pods_mysocialapp.framework */,
+				E375A80927431123C52C63B5 /* Pods_mysocialappTests.framework */,
+				AFE8526DC3C9A6B7CF9A90C4 /* Pods_mysocialappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DB37F87A1E5B053600C1D6E5 = {
 			isa = PBXGroup;
 			children = (
 				DB37F8851E5B053600C1D6E5 /* mysocialapp */,
-				DB37F89A1E5B053600C1D6E5 /* mysocialappTests */,
-				DB37F8A51E5B053600C1D6E5 /* mysocialappUITests */,
 				DB37F8841E5B053600C1D6E5 /* Products */,
+				90B94F1E8136829735D581B9 /* Pods */,
+				ABD7BD7CE63520AEC0785DB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,32 +168,74 @@
 		DB37F8851E5B053600C1D6E5 /* mysocialapp */ = {
 			isa = PBXGroup;
 			children = (
+				DB66D5711E5BE2C700ACAC52 /* Services */,
+				DB66D5681E5B8F8A00ACAC52 /* mysocialapp.entitlements */,
+				DB37F8BF1E5B5D2500C1D6E5 /* Util */,
+				DB37F8B61E5B09CF00C1D6E5 /* Model */,
+				DB37F8B81E5B09DA00C1D6E5 /* Controller */,
+				DB37F8B71E5B09D500C1D6E5 /* View */,
 				DB37F8861E5B053600C1D6E5 /* AppDelegate.swift */,
-				DB37F8881E5B053600C1D6E5 /* ViewController.swift */,
 				DB37F88A1E5B053600C1D6E5 /* Main.storyboard */,
 				DB37F88D1E5B053600C1D6E5 /* Assets.xcassets */,
 				DB37F88F1E5B053600C1D6E5 /* LaunchScreen.storyboard */,
 				DB37F8921E5B053600C1D6E5 /* Info.plist */,
+				DBF17E961EF7EE6900A3D953 /* GoogleService-Info.plist */,
 			);
 			path = mysocialapp;
 			sourceTree = "<group>";
 		};
-		DB37F89A1E5B053600C1D6E5 /* mysocialappTests */ = {
+		DB37F8B61E5B09CF00C1D6E5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DB37F89B1E5B053600C1D6E5 /* mysocialappTests.swift */,
-				DB37F89D1E5B053600C1D6E5 /* Info.plist */,
+				DB66D5741E5C186D00ACAC52 /* Post.swift */,
+				771B58D21F1D94AE005CD54F /* Comment.swift */,
 			);
-			path = mysocialappTests;
+			name = Model;
 			sourceTree = "<group>";
 		};
-		DB37F8A51E5B053600C1D6E5 /* mysocialappUITests */ = {
+		DB37F8B71E5B09D500C1D6E5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DB37F8A61E5B053600C1D6E5 /* mysocialappUITests.swift */,
-				DB37F8A81E5B053700C1D6E5 /* Info.plist */,
+				DB37F8BD1E5B5CC500C1D6E5 /* FancyView.swift */,
+				DB37F8C21E5B5F4200C1D6E5 /* RoundBtn.swift */,
+				DB66D5641E5B619300ACAC52 /* FancyField.swift */,
+				DB66D5661E5B636500ACAC52 /* FancyBtn.swift */,
+				DB66D56D1E5BBCD600ACAC52 /* CircleView.swift */,
+				DB66D56F1E5BCBF900ACAC52 /* PostCell.swift */,
+				DBA122041E926A8A0002FD4E /* profilePosts.swift */,
+				771B58D61F1D9F53005CD54F /* CommentCell.swift */,
 			);
-			path = mysocialappUITests;
+			name = View;
+			sourceTree = "<group>";
+		};
+		DB37F8B81E5B09DA00C1D6E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB37F8881E5B053600C1D6E5 /* SignInVC.swift */,
+				DB66D5691E5BA92E00ACAC52 /* FeedVC.swift */,
+				DB66D56B1E5BB8EA00ACAC52 /* addingimgVC.swift */,
+				DBD2B2EE1E85315300B38C4E /* imageVC.swift */,
+				DBD2B3361E89729E00B38C4E /* FirstView.swift */,
+				DBFE559A1E93B60900DB34B2 /* profileViewer.swift */,
+				DBF8D28E1F0E4E5800D62F2D /* newlyAddedPostVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DB37F8BF1E5B5D2500C1D6E5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DB37F8C01E5B5D5200C1D6E5 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		DB66D5711E5BE2C700ACAC52 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DB66D5721E5C0AC400ACAC52 /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB37F8AB1E5B053700C1D6E5 /* Build configuration list for PBXNativeTarget "mysocialapp" */;
 			buildPhases = (
+				B0BD4CF8FCB2B9121F932AA8 /* [CP] Check Pods Manifest.lock */,
 				DB37F87F1E5B053600C1D6E5 /* Sources */,
 				DB37F8801E5B053600C1D6E5 /* Frameworks */,
 				DB37F8811E5B053600C1D6E5 /* Resources */,
+				91823F3FAE06D7CAC1566E17 /* [CP] Embed Pods Frameworks */,
+				88D55FCC57C712D888593468 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB37F8AE1E5B053700C1D6E5 /* Build configuration list for PBXNativeTarget "mysocialappTests" */;
 			buildPhases = (
+				AD5C54527F5ED15389F91D4B /* [CP] Check Pods Manifest.lock */,
 				DB37F8931E5B053600C1D6E5 /* Sources */,
 				DB37F8941E5B053600C1D6E5 /* Frameworks */,
 				DB37F8951E5B053600C1D6E5 /* Resources */,
+				A03B39AEB59B5D0AEDE86C97 /* [CP] Embed Pods Frameworks */,
+				0139C534F003C21B81A1E2EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB37F8B11E5B053700C1D6E5 /* Build configuration list for PBXNativeTarget "mysocialappUITests" */;
 			buildPhases = (
+				13D78DCEBE84357C731A66CA /* [CP] Check Pods Manifest.lock */,
 				DB37F89E1E5B053600C1D6E5 /* Sources */,
 				DB37F89F1E5B053600C1D6E5 /* Frameworks */,
 				DB37F8A01E5B053600C1D6E5 /* Resources */,
+				70E8AFC65BD3C0C0A19DEAA3 /* [CP] Copy Pods Resources */,
+				224B0CD6A240F1827C335984 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,15 +315,24 @@
 				TargetAttributes = {
 					DB37F8821E5B053600C1D6E5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TQ8M49UP54;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					DB37F8961E5B053600C1D6E5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = DB37F8821E5B053600C1D6E5;
 					};
 					DB37F8A11E5B053600C1D6E5 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = DB37F8821E5B053600C1D6E5;
 					};
@@ -233,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB37F8911E5B053600C1D6E5 /* LaunchScreen.storyboard in Resources */,
+				DBF17E971EF7EE6900A3D953 /* GoogleService-Info.plist in Resources */,
 				DB37F88E1E5B053600C1D6E5 /* Assets.xcassets in Resources */,
 				DB37F88C1E5B053600C1D6E5 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +386,169 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0139C534F003C21B81A1E2EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysocialappTests/Pods-mysocialappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13D78DCEBE84357C731A66CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		224B0CD6A240F1827C335984 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysocialappUITests/Pods-mysocialappUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70E8AFC65BD3C0C0A19DEAA3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysocialappUITests/Pods-mysocialappUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88D55FCC57C712D888593468 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysocialapp/Pods-mysocialapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91823F3FAE06D7CAC1566E17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysocialapp/Pods-mysocialapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A03B39AEB59B5D0AEDE86C97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mysocialappTests/Pods-mysocialappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD5C54527F5ED15389F91D4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0BD4CF8FCB2B9121F932AA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB37F87F1E5B053600C1D6E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB37F8891E5B053600C1D6E5 /* ViewController.swift in Sources */,
+				DB66D5651E5B619300ACAC52 /* FancyField.swift in Sources */,
+				DBFE559B1E93B60900DB34B2 /* profileViewer.swift in Sources */,
+				DBD2B3371E89729E00B38C4E /* FirstView.swift in Sources */,
+				DB37F8891E5B053600C1D6E5 /* SignInVC.swift in Sources */,
+				DB37F8C31E5B5F4200C1D6E5 /* RoundBtn.swift in Sources */,
+				DB66D5731E5C0AC400ACAC52 /* DataService.swift in Sources */,
+				DB66D5751E5C186D00ACAC52 /* Post.swift in Sources */,
+				DBF8D28F1F0E4E5800D62F2D /* newlyAddedPostVC.swift in Sources */,
 				DB37F8871E5B053600C1D6E5 /* AppDelegate.swift in Sources */,
+				DBA122051E926A8A0002FD4E /* profilePosts.swift in Sources */,
+				DB66D56C1E5BB8EA00ACAC52 /* addingimgVC.swift in Sources */,
+				DB66D56A1E5BA92E00ACAC52 /* FeedVC.swift in Sources */,
+				DB66D56E1E5BBCD600ACAC52 /* CircleView.swift in Sources */,
+				DB37F8BE1E5B5CC500C1D6E5 /* FancyView.swift in Sources */,
+				DBD2B2EF1E85315300B38C4E /* imageVC.swift in Sources */,
+				771B58D71F1D9F53005CD54F /* CommentCell.swift in Sources */,
+				DB66D5701E5BCBF900ACAC52 /* PostCell.swift in Sources */,
+				771B58D31F1D94AE005CD54F /* Comment.swift in Sources */,
+				DB37F8C11E5B5D5200C1D6E5 /* Constants.swift in Sources */,
+				DB66D5671E5B636500ACAC52 /* FancyBtn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +556,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB37F89C1E5B053600C1D6E5 /* mysocialappTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +563,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB37F8A71E5B053600C1D6E5 /* mysocialappUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,8 +694,11 @@
 		};
 		DB37F8AC1E5B053700C1D6E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F78F792CC2FF0D17554A345 /* Pods-mysocialapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mysocialapp/mysocialapp.entitlements;
+				DEVELOPMENT_TEAM = TQ8M49UP54;
 				INFOPLIST_FILE = mysocialapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abula.mysocialapp;
@@ -420,8 +709,11 @@
 		};
 		DB37F8AD1E5B053700C1D6E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 348A2BFD95E248054956DFFB /* Pods-mysocialapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = mysocialapp/mysocialapp.entitlements;
+				DEVELOPMENT_TEAM = TQ8M49UP54;
 				INFOPLIST_FILE = mysocialapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = abula.mysocialapp;
@@ -432,6 +724,7 @@
 		};
 		DB37F8AF1E5B053700C1D6E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5591EFFACB7CA953470254F5 /* Pods-mysocialappTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +739,7 @@
 		};
 		DB37F8B01E5B053700C1D6E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE61A012169647A9DF3E73F /* Pods-mysocialappTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +754,7 @@
 		};
 		DB37F8B21E5B053700C1D6E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C396207105E2DF79D71A95D /* Pods-mysocialappUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = mysocialappUITests/Info.plist;
@@ -473,6 +768,7 @@
 		};
 		DB37F8B31E5B053700C1D6E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B60C2D00A43D44A2481D70D /* Pods-mysocialappUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = mysocialappUITests/Info.plist;
@@ -503,6 +799,7 @@
 				DB37F8AD1E5B053700C1D6E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB37F8AE1E5B053700C1D6E5 /* Build configuration list for PBXNativeTarget "mysocialappTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +808,7 @@
 				DB37F8B01E5B053700C1D6E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB37F8B11E5B053700C1D6E5 /* Build configuration list for PBXNativeTarget "mysocialappUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +817,7 @@
 				DB37F8B31E5B053700C1D6E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
